@@ -24,3 +24,5 @@ If the list is empty, return Nothing.
 # Should return nothing when two likes are sended. OK
 
 # Should return nothing when two Dislikes are sended. OK
+
+# Should return Dislike when Like and Dislike are sended consecutively. OK

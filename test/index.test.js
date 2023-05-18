@@ -20,4 +20,8 @@ describe('likeOrDislike', () => {
     it('Should return nothing when two likes are sended', () => {
         expect(likeOrDislike(["Dislike", "Dislike"])).toBe("Nothing");
     });
+
+    it('Should return Dislike when Like and Dislike are sended consecutively.', () => {
+        expect(likeOrDislike(["Like", "Dislike"])).toBe("Dislike");
+    });
 });
