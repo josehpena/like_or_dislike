@@ -6,12 +6,12 @@ const likeOrDislike = (array) => {
             if(status != "Like"){
                 status = "Like";
             }else status = "Nothing";
+
+        if(array[i] == "Dislike") 
+                if(status != "Dislike"){
+                    status = "Dislike";
+                } else status = "Nothing";
     }
-
-   
-
-    if(array == "Dislike")
-        return "Dislike";
 
     return status;
 }

@@ -16,4 +16,8 @@ describe('likeOrDislike', () => {
     it('Should return nothing when two likes are sended', () => {
         expect(likeOrDislike(["Like", "Like"])).toBe("Nothing");
     });
+
+    it('Should return nothing when two likes are sended', () => {
+        expect(likeOrDislike(["Dislike", "Dislike"])).toBe("Nothing");
+    });
 });
