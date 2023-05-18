@@ -28,3 +28,5 @@ If the list is empty, return Nothing.
 * Should return Dislike when Like and Dislike are sended consecutively. OK
 
 * Should return Like when Dislike and Like are sended consecutively. OK
+
+* Should return Nothing when Like, Dislike and Dislike are sended consecutively.
