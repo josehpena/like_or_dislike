@@ -15,14 +15,16 @@ If the list is empty, return Nothing.
 
 # Pomodoro 1
 
-# Should return Nothing when the list is empty OK
+* Should return Nothing when the list is empty OK
 
-# Should return Like when only a like is sended OK
+* Should return Like when only a like is sended OK
 
-# Should return Dislike when only a like is sended OK
+* Should return Dislike when only a Dislike is sended OK
 
-# Should return nothing when two likes are sended. OK
+* Should return nothing when two likes are sended. OK
 
-# Should return nothing when two Dislikes are sended. OK
+* Should return nothing when two Dislikes are sended. OK
 
-# Should return Dislike when Like and Dislike are sended consecutively. OK
+* Should return Dislike when Like and Dislike are sended consecutively. OK
+
+* Should return Like when Dislike and Like are sended consecutively. OK

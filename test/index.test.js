@@ -24,4 +24,8 @@ describe('likeOrDislike', () => {
     it('Should return Dislike when Like and Dislike are sended consecutively.', () => {
         expect(likeOrDislike(["Like", "Dislike"])).toBe("Dislike");
     });
+
+    it('Should return Like when Dislike and Like are sended consecutively.', () => {
+        expect(likeOrDislike(["Dislike", "Like"])).toBe("Like");
+    });
 });
