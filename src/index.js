@@ -4,6 +4,9 @@ const likeOrDislike = (array) => {
     if(array == "Like")
         return "Like";
 
+    if(array == "Dislike")
+        return "Dislike";
+
     return status;
 }
 

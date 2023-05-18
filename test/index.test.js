@@ -8,4 +8,8 @@ describe('likeOrDislike', () => {
     it('Should return like when only a like is sended', () => {
         expect(likeOrDislike(["Like"])).toBe("Like");
     });
+    
+    it('Should return Dislike when only a dislike is seded', () => {
+        expect(likeOrDislike(["Dislike"])).toBe("Dislike");
+    });
 });

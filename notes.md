@@ -15,6 +15,8 @@ If the list is empty, return Nothing.
 
 # Pomodoro 1
 
-# Should return nothing when the list is empty OK
+# Should return Nothing when the list is empty OK
 
-# Should return like when only a like is sended
+# Should return Like when only a like is sended OK
+
+# Should return Dislike when only a like is sended OK
