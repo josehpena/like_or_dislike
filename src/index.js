@@ -1,8 +1,14 @@
 const likeOrDislike = (array) => {
     let status = "Nothing"
 
-    if(array == "Like")
-        return "Like";
+    for (let i = 0; i < array.length; i++) {
+         if(array[i] == "Like")
+            if(status != "Like"){
+                status = "Like";
+            }else status = "Nothing";
+    }
+
+   
 
     if(array == "Dislike")
         return "Dislike";

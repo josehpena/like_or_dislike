@@ -12,4 +12,8 @@ describe('likeOrDislike', () => {
     it('Should return Dislike when only a dislike is seded', () => {
         expect(likeOrDislike(["Dislike"])).toBe("Dislike");
     });
+
+    it('Should return nothing when two likes are sended', () => {
+        expect(likeOrDislike(["Like", "Like"])).toBe("Nothing");
+    });
 });
